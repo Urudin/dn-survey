@@ -33,7 +33,7 @@
                 skálázható és költséghatékony CRM-megoldást, amely céged növekedéséhez igazodik!
             </p>
             <button class="mt-4 bg-lpsRed text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRedLight">Díjmentes
-                bemutató kérek
+                Bemutatót kérek
             </button>
         </div>
 

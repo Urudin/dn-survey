@@ -15,7 +15,7 @@
     <div class="relative h-144 overflow-hidden rounded-bl-[75px] rounded-tr-[75px] z-20">
         <div
             class="absolute inset-0 bg-cover bg-center z-0"
-            style="background-image: url('http://lp-creatio-microsite.test/images/{{$headerImage}}');">
+            style="background-image: url({{asset('images/' . $headerImage)}});">
         </div>
     </div>
 

@@ -8,7 +8,7 @@
 
         <!-- Kép fehér háttérrel és lekerekített sarkokkal -->
         <div class="inline-block bg-white rounded-[30px] p-[20px] relative z-10">
-            <img alt="Creatio Dashboard" src="{{asset('/images/service_performance_analytics.png')}}" class="rounded-[30px]">
+            <img alt="Creatio Dashboard" src="{{asset('/images/service_performance_analytics.png')}}" class="popup-image rounded-[30px]">
         </div>
     </div>
 </section>

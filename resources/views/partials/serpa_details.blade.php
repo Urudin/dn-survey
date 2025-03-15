@@ -37,7 +37,7 @@
                         Vestibulum vel nunc
                     </li>
                 </ul>
-                <button class="mt-4 bg-lpsRed text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRedLight">Díjmentes bemutató kérek</button>
+                <button class="mt-4 bg-lpsRed text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRedLight">Díjmentes bemutatót kérek</button>
         </div>
 
         <!-- Jobb oldali rész (55%) -->

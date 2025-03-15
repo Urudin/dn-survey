@@ -63,14 +63,14 @@
                         automatizációk gyors létrehozását és testreszabását, fejlesztői ismeretek nélkül.
                     </p>
                 </div>
-                <button
+                <a href="#contactForm"
                     class="bg-white text-lpsRed px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 self-start w-auto">
                     Érdekelnek a részletek
-                </button>
+                </a>
             </div>
             <div class="md:col-span-5 order-1 md:order-2 flex">
                 <img src="{{ asset('/images/service_workflow_management.png') }}" alt="Creatio CRM"
-                     class="w-full h-full rounded-xl shadow-md object-cover">
+                     class="popup-image w-full h-full rounded-xl shadow-md object-cover">
             </div>
         </div>
 
@@ -78,7 +78,7 @@
         <div class="grid grid-cols-1 md:grid-cols-11 gap-6 items-stretch">
             <div class="md:col-span-5 order-1 flex">
                 <img src="{{ asset('/images/contact_bundle_aim.png') }}" alt="Studio Creatio"
-                     class="w-full h-full rounded-xl shadow-md object-cover">
+                     class="popup-image w-full h-full rounded-xl shadow-md object-cover">
             </div>
             <div
                 class="md:col-span-6 order-2 flex flex-col justify-between bg-lpsDarkBlue text-white p-6 rounded-xl shadow-md">
@@ -89,10 +89,10 @@
                         kezelését, illeszkedve vállalatod üzleti igényeihez.
                     </p>
                 </div>
-                <button
+                <a href="#contactForm"
                     class="bg-white text-lpsDarkBlue px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 self-start w-auto">
                     Többet szeretnék tudni
-                </button>
+                </a>
             </div>
         </div>
     </div>

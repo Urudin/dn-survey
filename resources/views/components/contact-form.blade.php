@@ -1,5 +1,5 @@
  <!-- Űrlap -->
-        <form action="#" method="POST" class="mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <form action="#" id="contactForm" method="POST" class="mx-auto bg-white p-6 rounded-lg shadow-lg">
             <!-- Név -->
             <div class="mb-4">
                 <label for="name" class="block  font-semibold mb-1">Név*</label>
