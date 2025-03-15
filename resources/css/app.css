@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.h-144 {
+    height: 36rem;
+}
+.top-240{
+    top: 240px;
+}
+
+.left-70{
+    left: 70px;
+}
+
+.opacity-90{
+    opacity: 0.9;
+}
+
+.w-90{
+    width: 22rem;
+}
+
+.w-quarter{
+    width: 25%;
+}
