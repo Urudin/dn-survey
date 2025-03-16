@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\RoutingController;
 use Illuminate\Support\Facades\Route;
@@ -21,3 +22,5 @@ Route::get('product/{name}', [RoutingController::class, 'product'])->name('produ
 Route::prefix('{locale}')->middleware('localeHandler')->group(function () {
     Route::get('/home', [RoutingController::class, 'home']);
 });
+
+Route::post('/contact', [ContactController::class, 'receiveMessage'])->name('contact');

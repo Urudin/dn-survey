@@ -1,6 +1,7 @@
  <!-- Űrlap -->
-        <form action="#" id="contactForm" method="POST" class="mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <form action="{{route('contact')}}" id="contactForm" method="POST" class="mx-auto bg-white p-6 rounded-lg shadow-lg">
             <!-- Név -->
+            @csrf
             <div class="mb-4">
                 <label for="name" class="block  font-semibold mb-1">Név*</label>
                 <input type="text" id="name" name="name" required
@@ -32,8 +33,14 @@
             <div class="mb-4 flex items-center">
                 <input type="checkbox" id="privacy" name="privacy" required class="mr-2 w-5 h-5">
                 <label for="privacy" class=" text-sm">
-                    Az <a href="#" class=" font-semibold underline">adatkezelési tájékoztatót</a> megismertem
+                    Az <a href="https://lpsolutions.hu/adatkezeles.html" target="_blank" class=" font-semibold underline">adatkezelési tájékoztatót</a> megismertem
                 </label>
+            </div>
+            <div class="mb-4 flex items-center">
+                <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_SITE_KEY') }}"></div>
+                @error('captcha')
+                <span class="text-lpsRed">{{ $message }}</span>
+                @enderror
             </div>
 
             <!-- Küldés gomb -->
@@ -42,3 +49,34 @@
                 Küldés
             </button>
         </form>
+
+ <script>
+     document.addEventListener("DOMContentLoaded", function() {
+         @if(session('success'))
+         Swal.fire({
+             title: 'Sikeres beküldés!',
+             text: '{{ session("success") }}',
+             icon: 'success',
+             confirmButtonText: 'OK'
+         });
+         @endif
+
+         @if($errors->has('captcha'))
+         Swal.fire({
+             title: 'Hiba!',
+             text: '{{ $errors->first("captcha") }}',
+             icon: 'error',
+             confirmButtonText: 'OK'
+         });
+         @endif
+
+         @if($errors->has('serverError'))
+         Swal.fire({
+             title: 'Valami hiba történt!',
+             html: 'Írjon nekünk e-mailt a <a class="text-lpsRed" href="mailto:sales@lpsolutions.hu">sales@lpsolutions.hu</a> címre',
+             icon: 'error',
+             confirmButtonText: 'OK'
+         });
+         @endif
+     });
+ </script>

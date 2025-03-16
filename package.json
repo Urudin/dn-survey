@@ -15,6 +15,7 @@
         "vite": "^6.0"
     },
     "dependencies": {
-        "@fancyapps/ui": "^5.0.36"
+        "@fancyapps/ui": "^5.0.36",
+        "sweetalert2": "^11.17.2"
     }
 }
