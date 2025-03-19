@@ -8,7 +8,7 @@ class RoutingController extends Controller
 {
     public function home(): View
     {
-        return view('home', ['textBoxContent' => ['redText' => 'Creatio', 'blueText' => 'folyamatmenedzsment megoldások', 'desc' => 'Túl bonyolultak üzleti folyamataid? A magyar KKV-k gyakran küzdenek az átláthatatlan, lassú munkafolyamatokkal, amelyek hátráltatják a növekedést. A Creatio intelligens, személyre szabható és skálázható folyamatmenedzsment megoldásai lehetővé teszik az üzletmenet gyors és egyszerű automatizálását, fejlesztői ismeretek nélkül. Így teljes mértékben a vállalkozásod növekedésére koncentrálhatsz!.']]);
+        return view('home', ['textBoxContent' => ['redText' => 'Creatio', 'blueText' => 'folyamatmenedzsment megoldások', 'desc' => 'Túl bonyolultak üzleti folyamataid? A magyar KKV-k gyakran küzdenek az átláthatatlan, lassú munkafolyamatokkal, amelyek hátráltatják a növekedést. A Creatio intelligens, személyre szabható és skálázható folyamatmenedzsment megoldásai lehetővé teszik az üzletmenet gyors és egyszerű automatizálását, fejlesztői ismeretek nélkül. Így teljes mértékben a vállalkozásod növekedésére koncentrálhatsz!']]);
     }
 
     public function contact(): View

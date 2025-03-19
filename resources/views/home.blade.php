@@ -5,7 +5,7 @@
         headerImage='main_bg.webp'
         showTextBox={{true}}
         textBoxContent="{!!json_encode($textBoxContent)!!}"></x-header>
-    {{--    <x-clients/>--}}
+{{--        <x-clients/>--}}
     <x-dashboard/>
     <x-features/>
     <x-about/>
