@@ -8,6 +8,12 @@
                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-lpsDarkBlue focus:border-lpsDarkBlue outline-none">
             </div>
 
+            <div class="mb-4">
+                <label for="name" class="block  font-semibold mb-1">Név*</label>
+                <input type="text" id="name" name="name" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-lpsDarkBlue focus:border-lpsDarkBlue outline-none">
+            </div>
+
             <!-- E-mail cím -->
             <div class="mb-4">
                 <label for="email" class="block  font-semibold mb-1">E-mail cím*</label>

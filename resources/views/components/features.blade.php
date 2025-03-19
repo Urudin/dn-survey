@@ -1,7 +1,7 @@
 @php
     $features = [
-        'Studio' => 'A Creatio no-code platform, melyre tökéletesen személyre szabott folyamatautomatizálási megoldásaid építheted.',
-        'Marketing' => 'Automatizáld a kampánykezelést és az ügyfélkapcsolati munkafolyamatokat, lehetővé téve a célzott, eredményorientált kommunikációt.',
+        'Studio' => 'A Creatio no-code platform, melyre vállalatod tökéletesen személyre szabott folyamatautomatizálási megoldásait építheted.',
+        'Marketing' => 'Automatizáld a kampánykezelést és az ügyfélkapcsolati munkafolyamatokat, hogy célzott, eredményes legyen a kommunikáció.',
         'Értékesítés' => 'Menedzseld hatékonyan az értékesítési folyamatokat a kezdeti kapcsolatfelvételtől a szerződéskötésen át az utánkövetésig.',
         'Ügyfélszolgálat' => 'Átlátható folyamatokra építve gyors és hatékony megoldásokat nyújthatsz ügyfeleid számára, növelve az elégedettséget és a lojalitást.',
         ];
