@@ -2,6 +2,7 @@
     <div class="container mx-auto px-4 md:px-0 flex flex-col md:flex-row justify-between">
         <div class="mb-4 md:mb-0">
             <h3 class="font-bold">LP Solutions</h3>
+            <p>E-mail: <a href="mailto:info@lpsolutions.hu">info@lpsolutions.hu</a></p>
             <p>Creatio © {{ now()->format('Y') }}</p>
         </div>
         <nav class="flex space-x-4">

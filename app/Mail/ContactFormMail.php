@@ -26,9 +26,10 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
+        $subject = 'CREATIO LEAD: ' . $this->contactData['companyName'] . ' ' . now()->format('Y-m-d');
         return $this->from(config('mail.from.address')) // Alapértelmezett küldő
         ->to(env('SALES_EMAIL')) // Címzett
-        ->subject('Új kapcsolatfelvételi üzenet')
+        ->subject($subject)
             ->view('emails.contact-form') // Blade nézet
             ->with(['contactData' => $this->contactData]);
     }

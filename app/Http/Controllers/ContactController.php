@@ -25,6 +25,7 @@ class ContactController extends Controller
 
             Contact::query()->create([
                 'name' => $validated['name'],
+                'company_name' => $validated['companyName'],
                 'email' => $validated['email'],
                 'message' => $validated['message'],
                 'phone' => $validated['phone'],
@@ -32,7 +33,7 @@ class ContactController extends Controller
             ]);
 
             // Küldjük el az e-mailt
-            Mail::to(env('SALES_EMAIL'))->send(new ContactFormMail($validated));
+            Mail::to(env('info@lpsolutions.hu'))->send(new ContactFormMail($validated));
 
             return back()->with('success', 'Üzeneted sikeresen elküldve!');
         } catch (\Exception $e) {

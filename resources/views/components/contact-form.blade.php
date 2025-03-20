@@ -9,8 +9,8 @@
             </div>
 
             <div class="mb-4">
-                <label for="name" class="block  font-semibold mb-1">Név*</label>
-                <input type="text" id="name" name="name" required
+                <label for="name" class="block  font-semibold mb-1">Cégnév*</label>
+                <input type="text" id="companyName" name="companyName" required
                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-lpsDarkBlue focus:border-lpsDarkBlue outline-none">
             </div>
 
@@ -79,7 +79,7 @@
          @if($errors->has('serverError'))
          Swal.fire({
              title: 'Valami hiba történt!',
-             html: 'Írjon nekünk e-mailt a <a class="text-lpsRed" href="mailto:sales@lpsolutions.hu">sales@lpsolutions.hu</a> címre',
+             html: 'Írjon nekünk e-mailt az <a class="text-lpsRed" href="mailto:info@lpsolutions.hu">info@lpsolutions.hu</a> címre',
              icon: 'error',
              confirmButtonText: 'OK'
          });

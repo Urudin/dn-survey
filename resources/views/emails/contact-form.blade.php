@@ -9,6 +9,7 @@
 <h2>Új üzenet érkezett a kapcsolatfelvételi űrlapon keresztül</h2>
 
 <p><strong>Név:</strong> {{ $contactData['name'] }}</p>
+<p><strong>Cégnév:</strong> {{ $contactData['companyName'] }}</p>
 <p><strong>Email:</strong> {{ $contactData['email'] }}</p>
 <p><strong>Telefon:</strong> {{ $contactData['phone'] }}</p>
 <p><strong>Üzenet:</strong> {{ $contactData['message'] }}</p>

@@ -24,16 +24,18 @@ class RoutingController extends Controller
     public function product(string $productName): View
     {
         $data = match($productName) {
-            'serpa' => [
+            'studio' => [
+                'headerImage' => 'misty_mountains.webp',
                 'textBoxContent' =>
                     [
-                        'redText' => 'SERPA',
-                        'blueText' => '',
-                        'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet dolor et consequat efficitur. Pellentesque porta elit ut sapien eleifend eleifend.'
+                        'redText' => 'Studio Creatio',
+                        'blueText' => 'no-code platform',
+                        'desc' => 'Vállalati folyamatautomatizáció tervezése, fejlesztése és bevezetése IT ismeretek nélkül! A Creatio no-code / low-code platformja lehetővé teszi a tökéletesen testreszabott munkamenet automatizációt, legyen szó bármilyen iparágról vagy szakterületről.'
                     ],
                 'detailsView' => 'serpa_details'
             ],
             default => [
+                'headerImage' => 'green_mountains.png',
                 'textBoxContent' =>
                     ['redText' => 'Creatio CRM',
                         'blueText' => '',
