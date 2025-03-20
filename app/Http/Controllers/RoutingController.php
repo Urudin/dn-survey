@@ -34,7 +34,7 @@ class RoutingController extends Controller
                     ],
                 'detailsView' => 'serpa_details'
             ],
-            default => [
+            'creatio' => [
                 'headerImage' => 'green_mountains.png',
                 'textBoxContent' =>
                     ['redText' => 'Creatio CRM',
@@ -44,7 +44,11 @@ class RoutingController extends Controller
                 karnyújtásnyira van csupán.'
                     ],
                 'detailsView' => 'crm_details'],
+            default => null,
         };
+        if(empty($data)){
+            abort(404);
+        }
         return view('product', $data);
     }
 }

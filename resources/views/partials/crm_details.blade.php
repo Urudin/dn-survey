@@ -2,7 +2,7 @@
     <div class="grid grid-cols-12 gap-8r">
         <!-- Bal oldali rész (45%) -->
         <div class="col-span-5">
-            <img src="{{ asset('/images/low-code.png') }}" alt="Serpa Logo" class="mx-auto w-44 h-auto">
+            <img src="{{ asset('/images/low-code.png') }}" alt="Creatio Logo" class="mx-auto w-44 h-auto">
             <p class="mt-4 p-4 text-gray-700">360 fokos ügyfélkép és tökéletes dokumentumkezelés? A Creatio lehetővé
                 teszi, fejlesztői ismeretek nélkül.</p>
             <ul class="space-y-2 p-4">
@@ -51,19 +51,19 @@
         <div class="bg-lpsRed/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:left-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Marketing</h3>
-            <p class="lg:text-lg text-md">Automatizált és adatvezérelt kampánykezelés no-code platformon . Az érdeklődők
+            <p class="">Automatizált és adatvezérelt kampánykezelés no-code platformon. Az érdeklődők
                 és potenciális ügyfelek szegmentálása, kezelése, e-mail és többcsatornás marketing kampányok
                 áttekinthető menedzsmentje révén lehetővé teszi a célzott, adat alapú kommunikációt.
             </p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
+               class="mt-4 font-bold bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
                 Bemutatót kérek
             </a>
         </div>
         <!-- Kép -->
         <div
             class="w-[100%] md:w-[40%] md:h-[20rem] h-[22rem] rounded-xl overflow-hidden flex items-center justify-center">
-            <img src="{{ asset('/images/contact_bundle_aim.png') }}" alt="Serpa PS2"
+            <img src="{{ asset('/images/contact_bundle_aim.png') }}" alt="Contact Bundle"
                  class="popup-image w-full h-full object-cover xl:object-contain rounded-lg shadow-lg">
         </div>
     </div>
@@ -74,19 +74,19 @@
         <div class="bg-lpsDarkBlue/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:right-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Értékesítés</h3>
-            <p class="lg:text-lg text-md">Értékesítési folyamatok hatékony kezelése automatizálva, a kezdeti
+            <p class="">Értékesítési folyamatok hatékony kezelése automatizálva, a kezdeti
                 kapcsolatfelvételtől az ajánlatok kezelésén át a szerződéskötésig. Ajánlások, lehetőségkezelés,
                 utánkövetés és teljes körű ügyfélnyilvántartás révén támogatja a gyorsabb üzletkötéseket és a jobb
                 konverziós arányokat.</p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsDarkBlue hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRed">
+               class="mt-4 font-bold bg-white text-lpsDarkBlue hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRed">
                 Bemutatót kérek
             </a>
         </div>
         <!-- Kép -->
         <div
             class="w-[100%] md:w-[40%] md:h-[20rem] h-[22rem] rounded-xl overflow-hidden flex items-center justify-center">
-            <img src="{{ asset('/images/agent_desktop.png') }}" alt="Serpa PS2"
+            <img src="{{ asset('/images/agent_desktop.png') }}" alt="Agent Desktop"
                  class="popup-image w-full h-full object-cover xl:object-contain rounded-lg shadow-lg">
         </div>
     </div>
@@ -96,18 +96,18 @@
         <div class="bg-lpsRed/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:left-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Ügyfélszolgálat</h3>
-            <p class="lg:text-lg text-md">Kiemelkedő ügyfélélmény: automatizált ügyfélszolgálat. A Creatio CRM megoldása
+            <p class="">Kiemelkedő ügyfélélmény: automatizált ügyfélszolgálat. A Creatio CRM megoldása
                 no-code alapon teszi lehetővé a többcsatornás kommunikációt, beleértve telefont, emailt és csetet. Így
                 gyorsan és hatékonyan kezelhetők a megkeresések, panaszok és támogatási igények.</p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
+               class="mt-4 font-bold bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
                 Bemutatót kérek
             </a>
         </div>
         <!-- Kép -->
         <div
             class="w-[100%] md:w-[40%] md:h-[20rem] h-[22rem] rounded-xl overflow-hidden flex items-center justify-center">
-            <img src="{{ asset('/images/glassmorphism.png') }}" alt="Serpa PS2"
+            <img src="{{ asset('/images/glassmorphism.png') }}" alt="Glassmorphism"
                  class="popup-image w-full h-full object-cover xl:object-contain rounded-lg shadow-lg">
         </div>
     </div>
@@ -115,7 +115,7 @@
 
 <section class="container mx-auto px-6 py-10">
     <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-lpsRed mb-6">KINEK AJÁNLJUK?</h2>
+        <h2 class="text-3xl font-bold text-lpsRed mb-6">MIÉRT AJÁNLJUK?</h2>
 
 
         <div class="flex flex-col" x-data="{ active: null, height: 0 }">

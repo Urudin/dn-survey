@@ -2,7 +2,7 @@
     <div class="grid grid-cols-12 gap-8r">
         <!-- Bal oldali rész (45%) -->
         <div class="col-span-5">
-            <img src="{{ asset('/images/low-code.png') }}" alt="Serpa Logo" class="mx-auto w-44 h-auto">
+            <img src="{{ asset('/images/low-code.png') }}" alt="Low Code" class="mx-auto w-44 h-auto">
             <p class="mt-4 p-4 text-gray-700">
                 Vállalati folyamatautomatizáció tervezése, fejlesztése és bevezetése IT ismeretek nélkül! A Creatio
                 no-code / low-code platformja lehetővé teszi a tökéletesen testreszabott munkamenet automatizációt,
@@ -54,19 +54,20 @@
         <div class="bg-lpsRed/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:left-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Rugalmas építőelemek</h3>
-            <p class="lg:text-lg text-md">Automatizált és adatvezérelt kampánykezelés no-code platformon . Az érdeklődők
-                és potenciális ügyfelek szegmentálása, kezelése, e-mail és többcsatornás marketing kampányok
-                áttekinthető menedzsmentje révén lehetővé teszi a célzott, adat alapú kommunikációt.
+            <p class="">Alkalmazások létrehozása egyszerűen: átfogó könyvtárunkból válogatott alkotóelemek
+                összeállításával az alkalmazások gyorsan és hatékonyan fejleszthetőek. Tervezd meg saját
+                folyamatautomatizációs megoldásodat, vagy lépj be a Creatio piactérre, és válaszd ki a számodra
+                legjobban megfelelő harmadik feles megoldást, gyakorlati minták és példák alapján.
             </p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
+               class="mt-4 font-bold bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
                 Bemutatót kérek
             </a>
         </div>
         <!-- Kép -->
         <div
             class="w-[100%] md:w-[40%] md:h-[20rem] h-[22rem] rounded-xl overflow-hidden flex items-center justify-center">
-            <img src="{{ asset('/images/studio-ui.png') }}" alt="Serpa PS2"
+            <img src="{{ asset('/images/studio-ui.png') }}" alt="Studio UI"
                  class="popup-image w-full h-full object-cover xl:object-contain rounded-lg shadow-lg">
         </div>
     </div>
@@ -77,12 +78,12 @@
         <div class="bg-lpsDarkBlue/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:right-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Tökéletes kompatibilitás</h3>
-            <p class="lg:text-lg text-md">Értékesítési folyamatok hatékony kezelése automatizálva, a kezdeti
-                kapcsolatfelvételtől az ajánlatok kezelésén át a szerződéskötésig. Ajánlások, lehetőségkezelés,
-                utánkövetés és teljes körű ügyfélnyilvántartás révén támogatja a gyorsabb üzletkötéseket és a jobb
-                konverziós arányokat.</p>
+            <p class="">Könnyen csatlakoztathatod no-code platformon létrehozott, saját fejlesztésű vállalati
+                automatizációs megoldásaidat a harmadik feles applikációkkal és a Creatio CRM dobozos Marketing,
+                Értékesítés és Ügyfélszolgálat alkalmazásokkal. Így egyetlen bejelentkezéssel a cég minden folyamata
+                zökkenőmentesen átlátható, tökéletes lehet a részlegek közötti információáramlás. </p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsDarkBlue hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRed">
+               class="mt-4 font-bold bg-white text-lpsDarkBlue hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRed">
                 Bemutatót kérek
             </a>
         </div>
@@ -99,11 +100,13 @@
         <div class="bg-lpsRed/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:left-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Creatio.ai</h3>
-            <p class="lg:text-lg text-md">Kiemelkedő ügyfélélmény: automatizált ügyfélszolgálat. A Creatio CRM megoldása
-                no-code alapon teszi lehetővé a többcsatornás kommunikációt, beleértve telefont, emailt és csetet. Így
-                gyorsan és hatékonyan kezelhetők a megkeresések, panaszok és támogatási igények.</p>
+            <p class="">Natív Mesterséges Intelligencia minden munkafolyamathoz! Már az alap csomagban hozzáférhető
+                Creatio.ai hatékony általános célú készségeket kínál, amelyek bármely munkafolyamat során növelik a
+                termelékenységet, egyszerűsítik a rutinfeladatokat és segítik a kommunikációt. Mindezt külső alkalmazás
+                bekapcsolása nélkül. Sőt, akár Studio alkalmazások létrehozásában is támaszkodhatsz a Creatio.ai
+                képességeire.</p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
+               class="mt-4 font-bold bg-white text-lpsRed hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsDarkBlue">
                 Bemutatót kérek
             </a>
         </div>
@@ -121,12 +124,13 @@
         <div class="bg-lpsDarkBlue/90 text-white rounded-xl p-6 w-[100%] md:w-[70%] lg:w-[60%] xl:w-[50%] lg:h-[18rem] md:h-[20rem] h-auto flex flex-col items-center justify-center text-center space-y-2
                 md:relative md:right-[3rem] md:top-0 z-10 shadow-lg">
             <h3 class="xl:text-3xl lg:text-xl text-lg font-bold">Folyamatautomatizáció mindenkinek</h3>
-            <p class="lg:text-lg text-md">Egyszerűen automatizálhatod az üzleti folyamatokat és konfigurálhatod a
-                szabályokat a műveletek gyorsítására és a manuális feladatmegoldásból eredő hibák csökkentésére. Nem
-                csak óriásvállalatok, de KKV méretű szervezetek számára is mérhető előnyt jelent a személyre szabott
-                folyamatfejlesztés.</p>
+            <p class="">Egyszerűen automatizálhatod az üzleti folyamatokat és konfigurálhatod a szabályokat a műveletek
+                gyorsítására és a manuális feladatmegoldásból eredő hibák csökkentésére. Nem csak óriásvállalatok, de
+                KKV méretű szervezetek számára is mérhető előnyt jelent a személyre szabott folyamatfejlesztés, és a
+                Studio Creatio no-code platform lehetővé teszi a saját alkalmazásod bevezetését - drága IT apparátus
+                nélkül is. </p>
             <a href="#contactForm"
-               class="mt-4 bg-white text-lpsDarkBlue hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRed">
+               class="mt-4 font-bold bg-white text-lpsDarkBlue hover:text-white px-4 py-2 rounded-full shadow-md hover:bg-lpsRed">
                 Bemutatót kérek
             </a>
         </div>

@@ -41,7 +41,7 @@
                         No-code / low-code fejlesztési platform, amely saját fejlesztésű, vagy harmadik feles alkalmazások gyors bevezetésével lehetővé
                         teszi a tökéletesen testre szabott vállalati automatizációt, fejlesztői ismeretek nélkül.
                     </p>
-                    <a href="{{route('product', ['name' => 'serpa'])}}" class="bg-white text-lpsDarkBlue px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 self-start w-auto">
+                    <a href="{{route('product', ['name' => 'studio'])}}" class="bg-white text-lpsDarkBlue px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 self-start w-auto">
                         Többet szeretnék tudni
                     </a>
                 </div>
