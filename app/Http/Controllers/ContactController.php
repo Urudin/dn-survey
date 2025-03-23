@@ -33,7 +33,7 @@ class ContactController extends Controller
             ]);
 
             // Küldjük el az e-mailt
-            Mail::to(env('info@lpsolutions.hu'))->send(new ContactFormMail($validated));
+            Mail::to('info@lpsolutions.hu')->send(new ContactFormMail($validated));
 
             return back()->with('success', 'Üzeneted sikeresen elküldve!');
         } catch (\Exception $e) {
