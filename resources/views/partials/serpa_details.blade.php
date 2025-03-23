@@ -1,52 +1,66 @@
-<section class="container mx-auto mt-32 px-4 py-8">
-    <div class="grid grid-cols-12 gap-8r">
-        <!-- Bal oldali rész (45%) -->
-        <div class="col-span-5">
-            <img src="{{ asset('/images/low-code.png') }}" alt="Low Code" class="mx-auto w-44 h-auto">
-            <p class="mt-4 p-4 text-gray-700">
-                Vállalati folyamatautomatizáció tervezése, fejlesztése és bevezetése IT ismeretek nélkül! A Creatio
-                no-code / low-code platformja lehetővé teszi a tökéletesen testreszabott munkamenet automatizációt,
-                legyen szó bármilyen iparágról vagy szakterületről.
-            </p>
-            <p class="mt-4 p-4 text-gray-700">Akár saját fejlesztést szeretnél, akár harmadik féltől származó megoldást
-                vezetnél be, a Studio Creatio programozók hada nélkül is lehetővé teszi az alkalmazásod </p>
-            <ul class="space-y-2 p-4">
-                <li class="flex items-center relative">
-                    <svg class="w-5 h-5 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                        <circle cx="12" cy="12" r="10" class="text-red-700 fill-current"></circle>
-                        <path d="M10 14l-2-2-1.5 1.5L10 17l7-7-1.5-1.5L10 14z" fill="white"></path>
-                    </svg>
-                    tervezését
-                </li>
-                <li class="flex items-center relative">
-                    <svg class="w-5 h-5 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                        <circle cx="12" cy="12" r="10" class="text-red-700 fill-current"></circle>
-                        <path d="M10 14l-2-2-1.5 1.5L10 17l7-7-1.5-1.5L10 14z" fill="white"></path>
-                    </svg>
-                    fejlesztését és
-                </li>
-                <li class="flex items-center relative">
-                    <svg class="w-5 h-5 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                        <circle cx="12" cy="12" r="10" class="text-red-700 fill-current"></circle>
-                        <path d="M10 14l-2-2-1.5 1.5L10 17l7-7-1.5-1.5L10 14z" fill="white"></path>
-                    </svg>
-                    bevezetését.
-                </li>
-            </ul>
-            <p class="mt-4 p-4 text-gray-700">
-                A Creatio felvértezi vezető szerepre törő cégedet mindennel, ami az üzletmenet automatizálásához és a
-                folyamatmenedzsment megoldások skálázásához kell. Ötlettől a megvalósításig még sosem volt ilyen rövid
-                az idő.
-            </p>
+<section class="container mx-auto md:mt-32 px-4 py-8">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+        <!-- Bal oldal -->
+        <div class="md:col-span-5">
+            <div class="flex flex-col text-left">
+                <!-- Ikon - középen desktopon, balra mobilon -->
+                <div class="mb-4 flex justify-start justify-center">
+                    <img src="{{ asset('/images/low-code.png') }}" alt="Low Code Ikon"
+                         class="w-24 h-auto">
+                </div>
+
+                <!-- Szöveg -->
+                <p class="mb-4 text-gray-700">
+                    Vállalati folyamatautomatizáció tervezése, fejlesztése és bevezetése IT ismeretek nélkül! A Creatio
+                    no-code / low-code platformja lehetővé teszi a tökéletesen testreszabott munkamenet automatizációt,
+                    legyen szó bármilyen iparágról vagy szakterületről.
+                </p>
+                <p class="mb-4 text-gray-700">
+                    Akár saját fejlesztést szeretnél, akár harmadik féltől származó megoldást vezetnél be, a Studio Creatio
+                    programozók hada nélkül is lehetővé teszi az alkalmazásod:
+                </p>
+
+                <!-- Előnyök listája - mindig balra igazított -->
+                <ul class="space-y-2 pl-2 text-left">
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3 text-red-700" fill="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M10 14l-2-2-1.5 1.5L10 17l7-7-1.5-1.5L10 14z" fill="white" />
+                        </svg>
+                        tervezését
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3 text-red-700" fill="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M10 14l-2-2-1.5 1.5L10 17l7-7-1.5-1.5L10 14z" fill="white" />
+                        </svg>
+                        fejlesztését és
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3 text-red-700" fill="currentColor" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M10 14l-2-2-1.5 1.5L10 17l7-7-1.5-1.5L10 14z" fill="white" />
+                        </svg>
+                        bevezetését.
+                    </li>
+                </ul>
+
+                <p class="mt-4 text-gray-700">
+                    A Creatio felvértezi vezető szerepre törő cégedet mindennel, ami az üzletmenet automatizálásához és a
+                    folyamatmenedzsment megoldások skálázásához kell.
+                </p>
+            </div>
         </div>
 
-        <!-- Jobb oldali rész (55%) -->
-        <div class="col-span-7 flex flex-col items-center gap-4">
-            <img src="{{ asset('/images/modern-office.jpg') }}" alt="Modern Office" class="w-full rounded-lg shadow-lg">
+        <!-- Jobb oldal (nagy kép) -->
+        <div class="md:col-span-7 flex justify-center">
+            <img src="{{ asset('/images/modern-office.jpg') }}" alt="Modern Office"
+                 class="w-full max-w-md md:max-w-full rounded-lg shadow-lg">
         </div>
-
     </div>
 </section>
+
+
 <section class="container mx-auto px-6 py-10 space-y-16">
     <!-- Első sor -->
     <div class="relative flex flex-col md:flex-row items-center justify-center gap-6">

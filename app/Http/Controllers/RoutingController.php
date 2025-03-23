@@ -8,7 +8,7 @@ class RoutingController extends Controller
 {
     public function home(): View
     {
-        return view('home', ['textBoxContent' => ['redText' => 'Creatio', 'blueText' => 'folyamatmenedzsment megoldások', 'desc' => 'Túl bonyolultak üzleti folyamataid? A magyar KKV-k gyakran küzdenek az átláthatatlan, lassú munkafolyamatokkal, amelyek hátráltatják a növekedést. A Creatio intelligens, személyre szabható és skálázható folyamatmenedzsment megoldásai lehetővé teszik az üzletmenet gyors és egyszerű automatizálását, fejlesztői ismeretek nélkül. Így teljes mértékben a vállalkozásod növekedésére koncentrálhatsz!']]);
+        return view('home', ['textBoxContent' => ['redText' => 'Creatio', 'blueText' => 'folyamatmenedzsment megoldások', 'desc' => 'Túl bonyolultak üzleti folyamataid? Sok vállalkozás küzd lassú munkafolyamatokkal, amelyek hátráltatják a növekedést. A Creatio személyre szabható folyamatmenedzsment megoldásai lehetővé teszik az üzletmenet egyszerű automatizálását, fejlesztői ismeretek nélkül. És indulhat a növekedés!']]);
     }
 
     public function contact(): View
@@ -18,7 +18,7 @@ class RoutingController extends Controller
 
     public function creatioProducts(): View
     {
-        return view('creatio_products', ['showTextBox' => false]);
+        return view('creatio_products', ['textBoxContent' => ['redText' => 'A vállalati folyamatfejlesztés ', 'blueText' => 'alkalmazásai', 'desc' => 'Ne várj a holnapra: a Creatio platformon már ma elkezdheted a céges folyamatok fejlesztését. Rugalmas alkalmazásaink tökéletesen személyre szabhatók és skálázhatók, tehát saját ritmusban haladhatsz. Így könnyű kézben tartani a fejlesztési költségeket!']]);
     }
 
     public function product(string $productName): View

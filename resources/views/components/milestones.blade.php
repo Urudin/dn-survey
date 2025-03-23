@@ -11,11 +11,11 @@
             </div>
             <div class="p-6 bg-lpsDarkBlue text-white border border-white rounded-lg shadow-lg min-h-auto flex flex-col justify-between">
                 <h2 class="text-lg md:text-xl xl:text-2xl font-bold mb-4">Megtervezzük</h2>
-                <p>Megtervezzük a vállalatod számára megfelelő egyedi automatizálási megoldásokat és CRM alkalmazásokat, amelyek növelik a hatékonyságot és az ügyfélkapcsolatok eredményességét.</p>
+                <p>Megtervezzük a vállalatodhoz illő egyedi automatizálási megoldásokat és CRM alkalmazásokat, amelyek növelik a hatékonyságot és az ügyfélkapcsolatok eredményességét.</p>
             </div>
             <div class="p-6 bg-lpsDarkBlue text-white border border-white rounded-lg shadow-lg min-h-auto flex flex-col justify-between">
                 <h2 class="text-lg md:text-xl xl:text-2xl font-bold mb-4">Implementáljuk</h2>
-                <p>Részt veszünk minden lépésben, a licenszek beszerzésétől a testreszabáson át a teljes működésbe állításig. Szakértő csapatunk biztosítja, hogy az automatizáció valódi előnyt hozzon vállalatodnak.</p>
+                <p>Támogatunk a licenszek beszerzésétől a testreszabáson át a teljes működésbe állításig. Szakértő csapatunk biztosítja, hogy az automatizáció valódi előnyt hozzon vállalatodnak.</p>
             </div>
             <div class="p-6 bg-lpsDarkBlue text-white border border-white rounded-lg shadow-lg min-h-auto flex flex-col justify-between">
                 <h2 class="text-lg md:text-xl xl:text-2xl font-bold mb-4">Támogatjuk</h2>

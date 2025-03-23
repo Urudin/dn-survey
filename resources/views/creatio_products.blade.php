@@ -1,16 +1,19 @@
 @extends('layouts.main')
 
 @section('content')
-    <x-header showTextBox={{false}} headerImage='blackCliff.png'></x-header>
+    <x-header
+        headerImage='blackCliff.png'
+        showTextBox={{true}}
+        textBoxContent="{!!json_encode($textBoxContent)!!}"></x-header>
     <section>
-        <div class="max-w-6xl mx-auto p-6">
-            <h1 class="text-3xl text-lpsRed font-bold mb-4">A vállalati folyamatfejlesztés alkalmazásai</h1>
-            <p class="mb-6">
-                Ne várj a holnapra: a Creatio platformon már ma elkezdheted a céges folyamatok fejlesztését.
-                Rugalmas alkalmazásaink tökéletesen személyre szabhatók és remekül skálázhatók, így kézben tarthatod a fejlesztésre szánt erőforrásokat.
-                Akár egyedi folyamatautomatizációs megoldásban látod a fejlődés útját, akár személyre szabott CRM alkalmazásban,
-                a Creatio segítségével könnyen megvalósíthatod terveidet.
-            </p>
+        <div class="max-w-6xl mx-auto md:mt-32 p-6">
+{{--            <h1 class="text-3xl text-lpsRed font-bold mb-4">A vállalati folyamatfejlesztés alkalmazásai</h1>--}}
+{{--            <p class="mb-6">--}}
+{{--                Ne várj a holnapra: a Creatio platformon már ma elkezdheted a céges folyamatok fejlesztését.--}}
+{{--                Rugalmas alkalmazásaink tökéletesen személyre szabhatók és remekül skálázhatók, így kézben tarthatod a fejlesztésre szánt erőforrásokat.--}}
+{{--                Akár egyedi folyamatautomatizációs megoldásban látod a fejlődés útját, akár személyre szabott CRM alkalmazásban,--}}
+{{--                a Creatio segítségével könnyen megvalósíthatod terveidet.--}}
+{{--            </p>--}}
 
             <!-- Első blokk: Mobilon kép felül, nagyobb nézetben jobb oldalon -->
             <div class="grid grid-cols-1 md:grid-cols-11 gap-6 items-stretch mb-8">

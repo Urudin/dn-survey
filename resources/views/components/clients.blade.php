@@ -1,4 +1,4 @@
-<section class="py-12 mt-32">
+<section class="py-12 md:mt-32">
     <div class="container mx-auto px-2 md:px-4 lg:px-8">
         <h2 class="text-3xl font-bold text-lpsRed mb-6">ÜGYFELEINK</h2>
         <p class="text-xl">

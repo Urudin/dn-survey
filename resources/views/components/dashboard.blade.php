@@ -1,4 +1,4 @@
-<section class="bg-red-700 py-12 mt-32 overflow-hidden">
+<section class="bg-red-700 py-12 md:mt-32 overflow-hidden">
     <div class="container mx-auto px-2 md:px-4 lg:px-8 text-center relative w-full md:w-[80%] lg:w-[70%] xl:w-[60%]">
         <!-- Bal felső sarok border -->
         <div class="absolute top-[-20px] lg:left-[10px] left-[-10px] rounded-tl-[30px] border-t-[1px] border-l-[1px] border-white w-[120px] h-[120px] pointer-events-none z-0"></div>
