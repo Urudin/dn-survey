@@ -21,6 +21,7 @@
 {{--        <link rel="alternate" hreflang="x-default" href="{{ url('/') }}">--}}
 {{--    @endif--}}
 </head>
+@include('components.cookie-banner')
 <body class="font-montserrat">
 @yield('content')
 <x-footer />
