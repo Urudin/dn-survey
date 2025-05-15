@@ -12,13 +12,17 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('contacts', function (Blueprint $table) {
-           $table->id();
-           $table->string('name');
-           $table->string('email');
-           $table->string('phone');
-           $table->text('message');
-           $table->tinyInteger('gdpr_accepted');
-           $table->timestamps();
+            $table->id();
+            $table->string('name');
+            $table->string('email');
+            $table->string('rate');
+            $table->enum('combo_dance', ['yes', 'no']);
+            $table->enum('tattoo_system', ['yes', 'no']);
+            $table->string('buff_system'); // pl: npc_full_no_resists / up_to_74
+            $table->text('message')->nullable(); // szabad szöveg, nem kötelező
+            $table->boolean('subscribe')->default(false); // checkbox, alapértelmezett: nem iratkozik fel
+            $table->ipAddress()->nullable();
+            $table->timestamps();
         });
     }
 

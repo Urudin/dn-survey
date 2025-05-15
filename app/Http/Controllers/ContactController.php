@@ -15,30 +15,39 @@ class ContactController extends Controller
     public function receiveMessage(ContactRequest $request): RedirectResponse
     {
         try {
-
+            // reCAPTCHA ellenőrzés
             $recaptcha = new ReCaptcha(env('GOOGLE_SECRET_KEY'));
             $response = $recaptcha->verify($request->input('g-recaptcha-response'), $request->ip());
-            $validated = $request->validated();
+
             if (!$response->isSuccess()) {
-                return back()->withErrors(['captcha' => 'A reCAPTCHA ellenőrzés sikertelen, próbáld újra!']);
+                return back()->withErrors(['captcha' => 'reCAPTCHA verification failed. Please try again.']);
             }
 
-            Contact::query()->create([
+            $validated = $request->validated();
+            $ip = $request->ip();
+
+            // Ellenőrzés: adott IP már küldött-e be
+            if (Contact::where('ip_address', $ip)->exists()) {
+                return back()->withErrors(['duplicate' => 'You have already submitted the form. Thank you!']);
+            }
+
+            // Adat mentés
+            Contact::create([
                 'name' => $validated['name'],
-                'company_name' => $validated['companyName'],
                 'email' => $validated['email'],
-                'message' => $validated['message'],
-                'phone' => $validated['phone'],
-                'gdpr_accepted' => $validated['privacy'] == 'on' ? 1 : 0,
+                'rate' => $validated['rate'],
+                'combo_dance' => $validated['combo_dance'],
+                'tattoo_system' => $validated['tattoo_system'],
+                'buff_system' => $validated['buff_system'],
+                'message' => $validated['message'] ?? null,
+                'subscribe' => isset($validated['subscribe']) ? 1 : 0,
+                'ip_address' => $ip,
             ]);
 
-            // Küldjük el az e-mailt
-            Mail::to('info@lpsolutions.hu')->send(new ContactFormMail($validated));
-
-            return back()->with('success', 'Üzeneted sikeresen elküldve!');
+            return back()->with('success', 'Form successfully submitted.');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
-            return back()->withErrors(['serverError' => 'server Error']);
+            return back()->withErrors(['serverError' => 'Server error. Please try again later.']);
         }
     }
 }

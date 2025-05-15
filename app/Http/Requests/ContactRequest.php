@@ -23,12 +23,14 @@ class ContactRequest extends FormRequest
     {
         return [
             'g-recaptcha-response' => 'required',
-            'name' => 'required|string',
-            'companyName' => 'required|string',
-            'email' => 'required|email',
-            'message' => 'required|string',
-            'phone' => 'required|string',
-            'privacy' => 'required|accepted',
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'rate' => 'required|string',
+            'combo_dance' => 'required|in:yes,no',
+            'tattoo_system' => 'required|in:yes,no',
+            'buff_system' => 'required|in:npc_full_no_resists,up_to_74',
+            'message' => 'nullable|string',
+            'subscribe' => 'nullable|boolean',
         ];
     }
 }
