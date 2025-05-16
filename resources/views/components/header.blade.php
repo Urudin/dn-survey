@@ -14,7 +14,10 @@
                 {{ $textBoxContent['redText'] }}
                 <span class="text-lpsDarkBlue">{!! $textBoxContent['blueText'] !!}</span>
             </h1>
-            <p class="mb-6 text-xl">{{ $textBoxContent['desc'] }}</p>
+            <p class="text-lpsDarkBlue mb-6 text-xl">{{ $textBoxContent['desc'] }}</p>
+            <p class="text-lpsDarkBlue text-md md:text-lg lg:text-xl mb-6">
+                During this time, we’ve acquired high-quality files and exciting events, all based on the Interlude chronicle, enhanced with additional content to ensure the gameplay remains fresh and engaging.
+            </p>
         </div>
     @endif
 </header>
