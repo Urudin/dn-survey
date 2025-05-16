@@ -20,7 +20,7 @@
      <div class="mb-6">
          <label class="block font-semibold mb-2">Preferred Server Rate<span class="text-lpsRed">*</span></label>
          <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-             @foreach (['<10x','10-20x','21-50x', '51-100x', '100<x'] as $rate)
+             @foreach (['<10x','10-20x','21-50x', '51-100x', '>100x'] as $rate)
                  <label class="cursor-pointer">
                      <input type="radio" name="rate" value="{{ $rate }}" class="sr-only peer" required>
                      <div class="w-full p-4 text-center border rounded-lg peer-checked:bg-lpsRed peer-checked:text-white peer-checked:border-lpsRed transition duration-200">
